@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "647324381645",
+    "project_id": "amazing-app-466b9",
+    "storage_bucket": "amazing-app-466b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647324381645:android:a51371c9ac404cfddf5484",
+        "android_client_info": {
+          "package_name": "com.example.amazing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647324381645-8aj9ktg86lnt19bpn82neki5gk3n1sji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amazing",
+            "certificate_hash": "45352c5d19c18218012ece481a10fce8c66b2d2b"
+          }
+        },
+        {
+          "client_id": "647324381645-b2h2m7v4qklqsbv9l8md5sdr8mudgu0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_AALWW2m-Dzmf2UongY3AWTX_QyDK5ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647324381645-b2h2m7v4qklqsbv9l8md5sdr8mudgu0l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647324381645-aqleak5jqsk3jtdjicn0hhrj4851fs9u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.amazing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
