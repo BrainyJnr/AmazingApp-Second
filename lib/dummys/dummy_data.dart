@@ -5,15 +5,15 @@ import '../features/personalization/models/crunches_model.dart';
 import '../features/personalization/models/food_model.dart';
 
 class fDummyData {
-//  static final List<FoodModel> foods = [
-//     FoodModel(
-//       id: "01",
-//       title: "Moi Moi(wrapped)",
-//       price: 1233,
-//       image: fImages.MoiMoi,
-//       foodtype: "FOOD",
-//       description:
-//           "Moimoi is a steamed bean pudding made from a mixture of washed and peeled black-eyed beans, onions and fresh ground red peppers (usually a combination of bell peppers and chili or Scotch bonnet). It is a protein-rich food that is a staple in Nigeria.",
+ static final List<FoodModel> foods = [
+     FoodModel(
+      id: "01",
+       title: "Moi Moi(wrapped)",
+      price: 1233,
+      image: fImages.MoiMoi,
+       foodtype: "FOOD",
+       description:
+          "Moimoi is a steamed bean pudding made from a mixture of washed and peeled black-eyed beans, onions and fresh ground red peppers (usually a combination of bell peppers and chili or Scotch bonnet). It is a protein-rich food that is a staple in Nigeria.",
 //     ),
 //     FoodModel(
 //       id: "02",
@@ -727,25 +727,26 @@ class fDummyData {
 //       description:
 //           " Coca-Cola offers a delightful combination of carbonated water, sugar (or sweeteners), caffeine, and natural flavors. Enjoyed ice-cold, it's perfect for any occasion, from casual gatherings to special celebrations.",
 //     ),
-//     FoodModel(
-//       id: "082",
-//       title: "Chivita Active",
-//       image: fImages.Chivita,
-//       foodtype: "DRINKS",
-//       price: 1700,
-//       description:
-//           "We offer a range of fruit juices, juice nectars, and fruit flavoured drinks under the Chivita master brand.Our value-added dairy beverages, drinking yoghurt and evaporated milk, are housed under the Hollandia brand.And we produce a range of snacks which are a delight to our consumers.",
-//     ),
-//     FoodModel(
-//       id: "083",
-//       title: "Bottle Water",
-//       image: fImages.Aquafina,
-//       foodtype: "DRINKS",
-//       price: 300,
-//       description:
-//           "Aquafina, the epitome of purity and refreshment, offers you more than just hydration – it provides an experience of crisp, clean taste straight from nature's purest sources. Our rigorous purification process ensures every drop is pristine, making Aquafina the perfect choice to quench your thirst and rejuvenate your body. Whether you're at home, on the go, or enjoying a moment of relaxation, trust Aquafina to deliver refreshment you can taste and purity you can trust.",
-//     ),
-//   ];
+     ),
+    FoodModel(
+      id: "082",
+       title: "Chivita Active",
+       image: fImages.Chivita,
+      foodtype: "DRINKS",
+       price: 1700,
+      description:
+          "We offer a range of fruit juices, juice nectars, and fruit flavoured drinks under the Chivita master brand.Our value-added dairy beverages, drinking yoghurt and evaporated milk, are housed under the Hollandia brand.And we produce a range of snacks which are a delight to our consumers.",
+     ),
+     FoodModel(
+       id: "083",
+       title: "Bottle Water",
+       image: fImages.Aquafina,
+       foodtype: "DRINKS",
+      price: 300,
+     description:
+           "Aquafina, the epitome of purity and refreshment, offers you more than just hydration – it provides an experience of crisp, clean taste straight from nature's purest sources. Our rigorous purification process ensures every drop is pristine, making Aquafina the perfect choice to quench your thirst and rejuvenate your body. Whether you're at home, on the go, or enjoying a moment of relaxation, trust Aquafina to deliver refreshment you can taste and purity you can trust.",
+    ),
+   ];
   static final List<CrunchesModel> crunches = [
     CrunchesModel(
       id: "001",
@@ -824,25 +825,24 @@ class fDummyData {
 
   ];
 
-  static final List<BannerModel> banners = [
-    BannerModel(
-      id: "001",
-      image: fImages.Banner1,
-      isFeatured: false, name: '',
+ static final List<BannerModel> banners = [
+     BannerModel(
+       id: "001",
+       image: fImages.Banner1,
+       isFeatured: false, name: '',
 
-    ),
-    BannerModel(
-      id: "002",
-      image: fImages.Banner2,
-      isFeatured: false, name: '',
-    ),
-    BannerModel(
-      id: "003",
-        image: fImages.Banner3,
-      isFeatured: false, name: ''
-    )
-  ];
-
+     ),
+     BannerModel(
+       id: "002",
+     image: fImages.Banner2,
+       isFeatured: false, name: '',
+     ),
+     BannerModel(
+       id: "003",
+         image: fImages.Banner3,
+       isFeatured: false, name: ''
+     )
+   ];
 
 
 

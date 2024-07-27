@@ -1,6 +1,5 @@
 import 'package:intl/intl.dart';
 
-
 class fFormatter {
   static String formatDate(DateTime? date) {
     date ??= DateTime.now();
@@ -8,7 +7,7 @@ class fFormatter {
   }
 
   static String formatCurrency(double amount) {
-    return NumberFormat.currency(locale: "Naira", symbol: "\N").format(amount);
+    return NumberFormat.currency(locale: "en_US", symbol: "\$").format(amount);
   }
 
   static String formatPhoneNumber(String phoneNumber) {

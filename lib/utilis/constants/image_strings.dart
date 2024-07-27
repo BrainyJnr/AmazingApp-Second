@@ -1,3 +1,5 @@
+
+
 class fImages {
   /// --------------------------- App Logo --------------------------///
   static const String AppLogo = "assets/logo/Logo.1-removebg-preview (1).png";
@@ -12,10 +14,14 @@ class fImages {
   static const String OldFashioned =
       "assets/onBoardings/old fashioned cocktail.gif";
 
+
+  /// ------------------------------- Sub-Banner -----------------------------///
+  static const String SubBanner1 = "assets/sub_banner/Pinterest.jpg";
+
   /// ----------------------------- Banners ----------------------------///
-  static const String Banner1 = "assets/banner/Banner7.jpg";
-  static const String Banner2 = "assets/banner/Banner3-removebg-preview.png";
-  static const String Banner3 = "assets/banner/Banner1-removebg-preview.png";
+  static const String Banner1 = "assets/banner/Chicken Burger.jpg";
+  static const String Banner2 = "assets/banner/Mix_Match.jpg";
+  static const String Banner3 = "assets/banner/Slab.jpg";
 
   /// ----------------------------- Crunches ------------------------///
   static const String Blue_Celebration_Cake =
@@ -138,7 +144,7 @@ class fImages {
   static const String DrinkIcon =
       "assets/images/drinks/Drink_icon-removebg-preview.png";
   static const String Aquafina =
-      "assets/foods/Aquafina2-removebg-preview.png";
+      "https://www.aquafina.com/images/home/aqf-cans.png";
   static const String Chivita =
       "assets/foods/Chivita-removebg-preview.png";
   static const String CocoaCola =
@@ -147,7 +153,7 @@ class fImages {
       "assets/images/drinks/Malta_Guiness-removebg-preview.png";
 
   /// ------------------------------ Cakes --------------------------------------///
-  static const String CakeIcon = "assets/images/cakes/cake_icon.jpg";
+  static const String CakeIcon = "assets/images/cakes/cake_icon-removebg-preview.png";
   static const String Celebration_Cake6 =
       "assets/images/cakes/Celebration Cake 6.jpg";
   static const String Celebration_Cake8 =

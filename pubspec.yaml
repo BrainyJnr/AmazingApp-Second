@@ -40,7 +40,7 @@ dependencies:
   get_storage: ^2.1.1
   lottie: ^3.1.2
   connectivity_plus: ^5.0.2
-  smooth_page_indicator: ^1.1.0
+  smooth_page_indicator: ^1.2.0
   readmore: ^3.0.0
   carousel_slider: ^4.2.1
   flutter_rating_bar: ^4.0.1
@@ -52,6 +52,7 @@ dependencies:
   cloud_firestore: ^5.0.0
   google_sign_in: ^6.2.1
   loader: ^1.0.0
+  font_awesome_flutter: ^10.7.0
   typed_data: ^1.3.2
   intl: ^0.19.0
 
@@ -62,6 +63,11 @@ dependencies:
   http: ^1.2.1
   custom_text_field: ^0.0.3
   iconly: ^1.0.1
+  flutter_otp_text_field: ^1.1.1
+  otp_text_field: ^1.1.3
+  convex_bottom_bar: ^3.2.0
+  flutter_staggered_animations: ^1.1.1
+
 
 
 
@@ -81,7 +87,7 @@ flutter_icons:
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
+  # package. See that file for //information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
 
@@ -112,6 +118,9 @@ flutter:
     - assets/images/breads/
     - assets/logo/Logo.1-removebg-preview (1).png
     - assets/banner/
+    - assets/onBoardings/
+    - assets/sub_banner/
+    - assets/images/drinks/
 
   #   - images/a_dot_ham.jpeg
 
